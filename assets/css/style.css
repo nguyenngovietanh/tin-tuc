@@ -898,7 +898,7 @@ footer {
     font-size: 16px;
   }
   .col-content {
-    font-size: 11px;
+    font-size: 13px;
     padding-bottom: 20px;
   }
   /* footer 540 end */
@@ -1017,7 +1017,7 @@ footer {
     font-size: 14px;
   }
   .col-content {
-    font-size: 9px;
+    font-size: 11px;
     padding-bottom: 12px;
   }
   .about-us-col:last-child {
@@ -1051,6 +1051,9 @@ footer {
   }
   .news-title {
     padding-left: 12px;
+  }
+  .col-content {
+    font-size: 10px;
   }
 }
 @media only screen and (max-width:375px) {
