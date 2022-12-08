@@ -272,7 +272,7 @@ nav .navbar .links li:hover > i,
 }
 
 /* body */
-.main-container h2 {
+.news-main-container h2 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   font-style: normal;
@@ -280,7 +280,7 @@ nav .navbar .links li:hover > i,
   font-size: 30px;
   color: #222221;
 }
-.main-container {
+.news-main-container {
   background: #f7f5ee;
   width: 100%;
   padding-top: 50px;
@@ -343,12 +343,12 @@ nav .navbar .links li:hover > i,
 .protect-children-item:nth-child(even), .vocational-guidance-item:nth-child(even), .joining-item:nth-child(even) {
   margin-left: 15px;
 }
-.post-img {
+.news-post-img {
   position: relative;
   width: 100%;
   margin-bottom: 15px;
 }
-.post-img img {
+.news-post-img img {
   width: 100%;
   height: 130px;
   border-radius: 5px;
@@ -570,7 +570,7 @@ footer {
     margin-right: 15px;
   }
   /* 920 header end */
-  .main-container h2 {
+  .news-main-container h2 {
     margin-left: auto;
     margin-right: auto;
     line-height: 45px;
@@ -714,7 +714,7 @@ footer {
     margin-right: 20px;
   }
   /* 820 header end */
-  .main-container h2 {
+  .news-main-container h2 {
     font-size: 26px;
     margin-bottom: 0;
   } 
@@ -786,7 +786,7 @@ footer {
     font-size: 23px;
   }
   /* 768 header end */
-  .main-container h2 {
+  .news-main-container h2 {
     line-height: 36px;
     font-size: 26px;
   }
@@ -834,11 +834,11 @@ footer {
     padding-right: 15px;
   }
   /* header 640 end */
-  .main-container {
+  .news-main-container {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  .main-container h2 {
+  .news-main-container h2 {
     font-size: 25px;
   }
   .news-container {
@@ -932,8 +932,8 @@ footer {
     font-size: 18px;
   }
   /* header 480 end */
-  .main-container h2 {
-    font-size: 22px;
+  .news-main-container h2 {
+    font-size: 23px;
     width: 100%;
     line-height: 28px;
   }
@@ -991,11 +991,11 @@ footer {
     margin-bottom: 0px;
   } 
   /* header 420 end */
-  .main-container {
+  .news-main-container {
     padding-top: 25px;
     padding-bottom: 0;
   }
-  .main-container h2 {
+  .news-main-container h2 {
     width: 45%;
   }
   .news-post-content {
@@ -1038,8 +1038,8 @@ footer {
   .banner-container {
     width: 85%;
   }
-  .main-container h2 {
-    font-size: 16px;
+  .news-main-container h2 {
+    font-size: 18px;
     line-height: 24px;
   }
   .news-post-content {
