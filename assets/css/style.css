@@ -292,6 +292,8 @@ nav .navbar .links li:hover > i,
   margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .news-title {
   width: 95%;
@@ -308,30 +310,21 @@ nav .navbar .links li:hover > i,
 .news-title a:hover {
   color: #DF6258;
 }
-.news-top, .news-center, .news-bottom {
-  position: relative;
-  width: 100%;
-  display: flex;
-}
-.develop, .nutrition, .education, 
-.protect-children, .vocational-guidance, .joining {
+.general {
   position: relative;
   width: 50%;
   margin-bottom: 50px;
 }
-.develop-box, .nutrition-box, .education-box, 
-.protect-children-box, .vocational-guidance-box, .joining-box {
+.general-box {
   position: relative;
   width: 95%;
   display: flex;
   flex-wrap: wrap;
 }
-.develop-box:nth-child(even), .nutrition-box:nth-child(even), .education-box:nth-child(even), 
-.protect-children-box:nth-child(even), .vocational-guidance-box:nth-child(even), .joining-box:nth-child(even) {
+.general-box:nth-child(even) {
   float: right;
 }
-.develop-item, .nutrition-item, .education-item, 
-.protect-children-item, .vocational-guidance-item, .joining-item {
+.general-item {
   background: #ffffff;
   padding: 15px;
   width: 45%;
@@ -339,8 +332,7 @@ nav .navbar .links li:hover > i,
   margin-top: 15px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.develop-item:nth-child(even), .nutrition-item:nth-child(even), .education-item:nth-child(even), 
-.protect-children-item:nth-child(even), .vocational-guidance-item:nth-child(even), .joining-item:nth-child(even) {
+.general-item:nth-child(even) {
   margin-left: 15px;
 }
 .news-post-img {
@@ -497,8 +489,7 @@ footer {
   .news-container {
     width: 100%;
   }
-  .develop-box, .nutrition-box, .education-box, 
-  .protect-children-box, .vocational-guidance-box, .joining-box {
+  .general-box {
     width: 100%;
     justify-content: center;
   }
@@ -718,11 +709,8 @@ footer {
     font-size: 26px;
     margin-bottom: 0;
   } 
-  .develop, .nutrition, .education, .protect-children, .vocational-guidance, .joining {
+  .general {
     width: 100%;
-  }
-  .news-top, .news-center, .news-bottom {
-    flex-wrap: wrap;
   }
   .news-title {
     padding-left: 35px;
@@ -940,12 +928,7 @@ footer {
   .news-title a {
     font-size: 18px;
   } 
-  .develop-item:first-child, .develop-item:nth-child(2), 
-  .nutrition-item:first-child, .nutrition-item:nth-child(2), 
-  .education-item:first-child, .education-item:nth-child(2), 
-  .protect-children-item:first-child, .protect-children-item:nth-child(2), 
-  .vocational-guidance-item:first-child, .vocational-guidance-item:nth-child(2), 
-  .joining-item:first-child, .joining-item:nth-child(2) {
+  .general-item:first-child, .general-item:nth-child(2) {
     margin-top: 8px;
   }
   .news-title {
@@ -1009,7 +992,7 @@ footer {
   .news-title a {
     font-size: 17px;
   }
-  .develop, .nutrition, .education, .protect-children, .vocational-guidance, .joining {
+  .general {
     margin-bottom: 40px;
   }
   /* footer 420 start */
